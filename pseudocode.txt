@@ -1,0 +1,66 @@
+Language game pseudocode
+
+Main menu:
+
+Print directions
+ask for choice
+Based on response choose topic
+    1-Greetings
+    2-Airport
+    3-Hotel
+    4-Restaurant
+    5-Exit
+
+For tasks 1-4 above:
+
+Print directions
+Ask for choice
+Based on response choose activity
+    A-Guessing game
+    B-Word shuffle
+    C-Translation task
+    D-Hang man
+    E-Exit
+
+
+
+
+For Guessing game
+#Choose from 3 sentence in English the correct Portuguese sentence#
+
+Print directions
+Print option for sentences
+Receive input
+Evaluate input
+Give feedback
+Exit
+(include score 100/75/25/0)
+
+
+
+
+
+
+For Hang man
+
+Print directions
+Ask if ready to start
+Set scene _____  ______   _____   _______
+ask for input
+Evaluate input
+Give feedback
+
+Possibilities for feedback in Han man:
+
+Good job! What is next?
+Nope! Try again or exit.
+You got it! Play again?
+Type exit to exite
+
+Possible branch out for 3 top feedback above:
+
+Take input
+evaluate input
+give feedback - you have x more trials
+exit
+
