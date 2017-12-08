@@ -1,4 +1,5 @@
 import ast
+import random
 
 def keep_playing_game(play_game):
     """evaluates if user wants to play"""
@@ -119,7 +120,7 @@ def main():
 
     new_game_round = keep_playing_game(play_game)
 
-    index = 0
+    index = random.randint(0, 10)
 
     while new_game_round: ## and index in range(len(list_of_dictionaries)):
 
