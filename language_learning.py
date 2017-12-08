@@ -130,7 +130,7 @@ def main():
                 invalid_vocab_options(topic_choice)
             else:
                 vocab_file = import_vocab_file(vocabulary_option)
-            dict_index = vocab_file[index]# lines at vocab files - needs to add reference
+            dict_index = vocab_file[index]# index referent to each line at vocab files
             dict_loop = string_to_dict(dict_index)
             users_answer = formulating_question(dict_loop)
             giving_feedback(dict_loop, users_answer)
